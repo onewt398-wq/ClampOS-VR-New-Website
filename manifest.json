@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "any",
   "scope": "/",
-  "start_url": "https://clamposvr.nullgrip.mooo.com/",
+  "start_url": "index.html",
   "description": "An app for a vr game called ClampOS: VR!",
   "icons": [
     {
