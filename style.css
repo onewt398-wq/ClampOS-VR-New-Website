@@ -1,5 +1,29 @@
-.testbutton {
+body {
+  margin: 0px;
+}
+
+footer {
+  height: 4%;
+  background-color: orange;
+  position: 0;
+}
+
+.container {
+  padding: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+button {
   border: none;
+  background-color: lightblue;
+  border-radius: 8px;
+  transition-duration: 1.5;
   padding: 15px 30px;
-  background-color: green;
+}
+
+button:hover {
+  background-color: orange;
+  padding: 20px 35px;
 }
