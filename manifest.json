@@ -6,8 +6,8 @@
   "display": "standalone",
   "orientation": "any",
   "scope": "/",
-  "start_url": "",
-  "description": "An example PWA description.",
+  "start_url": "https://clamposvr.nullgrip.mooo.com/",
+  "description": "An app for a vr game called ClampOS: VR!",
   "icons": [
     {
       "src": "icon-192.png",
