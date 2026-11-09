@@ -3,6 +3,18 @@
     <link rel="icon" type="image/png" href="icon-192.png">
     <title>ClampOS: VR Website</title>
     <script src="main.js"></script>
+
+    <!-- PWA Stuff (In All Pages) -->
+    <link rel="manifest" href="/manifest.json">
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js");
+        });
+      }
+    </script>
+    <!-- This is the end of PWA stuff. -->
   </head>
 
   <body>
