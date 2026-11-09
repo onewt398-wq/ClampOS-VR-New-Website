@@ -5,7 +5,8 @@ body {
 footer {
   height: 4%;
   background-color: orange;
-  position: 0;
+  bottom: 0;
+  position: fixed;
 }
 
 .container {
