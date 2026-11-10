@@ -9,3 +9,9 @@ function linkMeta() {
 function linkPrivacy() {
   alert("Not Implemented")
 }
+
+function learnDec5Update() {
+  if (confirm("More will be revealed as we get closer to december 5th but pressing ok will sopil you do you want to be spoiled?")) {
+    alert("--- TU 10 NOV 26 Spoiler ---\n\n 1. Reworked A Very Common Script In The Game...");
+  }
+}
