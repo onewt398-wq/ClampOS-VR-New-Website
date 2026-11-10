@@ -15,3 +15,13 @@ function learnDec5Update() {
     alert("--- TU 10 NOV 26 Spoiler ---\n\n 1. Reworked A Very Common Script In The Game...");
   }
 }
+
+function attemptLogIn(email, password) {
+  if (email == "ole_398@outlook.com") {
+    if (password == "iClamp1234") {
+      alert("Sucsessfully Logged in as: 'Oliver Newton'");
+      localStorage.setItem("loggedInAsUser" "olivernewtonowner")
+      window.location.href="profile.html"
+    } 
+  }
+}
